@@ -1,0 +1,39 @@
+
+
+
+  <div class="" style="background-color: #090808;">
+  <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <a [routerLink]="['/home']" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+
+    </a>
+    
+  
+    
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a routerLink="" class="nav-link px-2 text-light mb-0 h4">Inicio</a></li>
+
+        <li class="nav-item"><a [routerLink]="['/menu']" class="nav-link px-2 text-light mb-0 h4">Menu</a></li>
+        <li class="nav-item"><a [routerLink]="['/pedidos']" class="nav-link px-2 text-light mb-0 h4" >Pedidos</a></li>
+        
+        
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-warning" type="submit">Buscar</button>
+      </form>
+  </header>
+  </div>
+
+
+
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+
+  
+
+
+
