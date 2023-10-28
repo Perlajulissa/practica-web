@@ -1,4 +1,4 @@
-name: Unit Tests
+name: Unit Tests and Deployment
 
 on:
   push:
@@ -30,6 +30,8 @@ jobs:
 
       - name: Run Unit Tests
         run: npm test
+
+
   
 
 
